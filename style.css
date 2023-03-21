@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(48, 45, 45);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.form-control {
+  max-width: 500px;
+}
+
+.productContainer {
+  margin-top: 20px;
+}
+
+.productParentContainer {
+  margin-bottom: 20px;
+}
+.productParent {
+  padding: 8px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  display: inline;
+}
+
+.purchased {
+  text-decoration: line-through;
+}
+
+.fa-solid {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
